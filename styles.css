@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Universal styles 
+============================== */
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* background: lightblue; */
+}
+
+/* Announcement styles
+============================== */
+.announcement {
+  background-color: #3f72e5;
+  height: 30px;
+}
+
+.announcement-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  width: 100%;
+}
+
+.announcement-arrow {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+}
+
+.announcement-text {
+  color: #fff;
+}
+
+.announcement-arrow svg {
+  color: #fff;
+  fill: #fff;
+}
+
+.about {
+}
+
+/* .......................  */

@@ -1,0 +1,8 @@
+- flex só funciona com filhos
+- svg dentro do span 
+- pra blocos, sempre colocar o max-width em pixel e o width: 100%; width sempre vai ser 100%. 
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+}
