@@ -6,3 +6,15 @@
     max-width: 1200px;
     width: 100%;
 }
+
+- sempre que vc criar uma section, você cria um container dentro 
+
+<div class="about">
+    <div class="container">
+
+    </div>
+
+</div>
+
+- container deixa margens
+- SEO (search engine optimization) => usar tags, e não usar div pra tudo, facilita no SEO.
