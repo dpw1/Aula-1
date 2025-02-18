@@ -18,3 +18,10 @@
 
 - container deixa margens
 - SEO (search engine optimization) => usar tags, e não usar div pra tudo, facilita no SEO.
+
+---
+
+princípio de alinhar elements com flex:
+
+1. achar quem você quer alinhar.
+2. Depois de encontrar o elemento, achar o pai dele.

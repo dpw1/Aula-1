@@ -63,4 +63,9 @@
   display: flex;
 }
 
+.about-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* .......................  */
