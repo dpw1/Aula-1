@@ -3,18 +3,30 @@
 
 :root {
   --primary-color: #3f72e5;
-  --font-size-h4: 13px;
-  --font-size-h4-mobile: 13px;
-  --font-size-h6: 10px;
+}
+
+.icon-small {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
 }
 
 .h4 {
-  font-size: var(--font-size-h4);
+  font-size: 13px;
 }
 
+.h5 {
+  font-size: 12px;
+}
+
+/* media query para mobile */
 @media (max-width: 749px) {
   .h4 {
-    font-size: var(--font-size-h4-mobile);
+    font-size: 13px;
+  }
+
+  .h5 {
+    font-size: 12px;
   }
 }
 
@@ -62,19 +74,13 @@
   color: #fff;
 }
 
-.announcement-arrow svg {
+.announcement-arrow {
   color: #fff;
   fill: #fff;
 }
 
 /* About styles
 ============================== */
-
-.about-icon {
-  width: 30px;
-  height: 30px;
-  display: inline-block;
-}
 
 .about-social-item {
 }
@@ -102,6 +108,10 @@
 
 .about-social-item {
   margin-left: 15px;
+}
+
+.about-info > *:nth-child(1) {
+  margin-left: 0;
 }
 
 /* .......................  */
