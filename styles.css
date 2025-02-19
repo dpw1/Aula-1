@@ -1,6 +1,23 @@
 /* Universal styles 
 ============================== */
 
+:root {
+  --primary-color: #3f72e5;
+  --font-size-h4: 13px;
+  --font-size-h4-mobile: 13px;
+  --font-size-h6: 10px;
+}
+
+.h4 {
+  font-size: var(--font-size-h4);
+}
+
+@media (max-width: 749px) {
+  .h4 {
+    font-size: var(--font-size-h4-mobile);
+  }
+}
+
 .container {
   max-width: 1000px;
   width: 100%;
@@ -10,10 +27,14 @@
   /* background: lightblue; */
 }
 
+* {
+  font-family: "Roboto", serif;
+}
+
 /* Announcement styles
 ============================== */
 .announcement {
-  background-color: #3f72e5;
+  background-color: var(--primary-color);
   height: 30px;
 }
 
@@ -26,6 +47,9 @@
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+
+  align-items: center;
+  height: 100%;
 }
 
 .announcement-arrow {
@@ -66,6 +90,18 @@
 .about-container {
   display: flex;
   justify-content: space-between;
+}
+
+.about-right {
+  display: flex;
+}
+
+.about-info-item {
+  margin-left: 15px;
+}
+
+.about-social-item {
+  margin-left: 15px;
 }
 
 /* .......................  */
