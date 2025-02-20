@@ -99,6 +99,8 @@ body {
   border-bottom: 2px solid var(--border-color-light);
 }
 .about-container {
+  height: 38px;
+  align-items: center;
 }
 
 .about-social {
@@ -136,3 +138,10 @@ body {
   color: var(--text-color);
 }
 /* .......................  */
+
+.header {
+}
+
+.header-search-input {
+  background: gray;
+}

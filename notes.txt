@@ -24,3 +24,9 @@ princípio de alinhar elements com flex:
 
 1. achar quem você quer alinhar.
 2. Depois de encontrar o elemento, achar o pai dele.
+
+---
+
+classes modificadoras (--) são importantes para modificar elementos, por exemplo: 
+
+<div class="text text--dark"></div>
