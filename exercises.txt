@@ -1,3 +1,19 @@
+https://vision-main.myshopify.com/
+
 20/02
+
 1. corrigir o tamanho do logo 
-2. 
+2. mudar a cor do input
+3. colocar o tamanho do input correto e seu background-color
+4. corrigir a cor dos ícones (criar uma variável global para isso)
+5. 
+
+---
+
+desafio: 
+
+1. fazer o input igual
+    - dica: 
+        - usar o position:relative; no pai 
+        - usar o position:absolute; no ícone da lupa (button)
+        - não esquecer (max-width) ao invés do (width) quando forem elementos 'grandes' (mais de 50px)
