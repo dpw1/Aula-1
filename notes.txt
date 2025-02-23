@@ -30,3 +30,33 @@ princípio de alinhar elements com flex:
 classes modificadoras (--) são importantes para modificar elementos, por exemplo: 
 
 <div class="text text--dark"></div>
+
+---
+
+Sempre que você usar display flex, vc provavelmente vai precisar desses dois códigos: 
+
+justify-content (alinha na horizontal) 
+align-items (alinha na vertical)
+
+---
+
+classe modificadora é uma metodologia 
+metodologia = conjunto de regras pra facilitar a nossa vida
+classe modificadora sempre vem com 2 hifens 
+
+---
+
+o position: absolute; ele SEMPRE precisa de um pai (ou qualquer elemento acima dele) com position: relative;
+
+pra alinhar um position: absolute;
+
+/* Alinhar verticalmente */
+top: 50%;
+transform: translateY(-50%);
+
+/* Alinhar horizontalmente */
+left: 50%;
+transform: translateX(-50%);
+
+---
+

@@ -17,3 +17,14 @@ desafio:
         - usar o position:relative; no pai 
         - usar o position:absolute; no ícone da lupa (button)
         - não esquecer (max-width) ao invés do (width) quando forem elementos 'grandes' (mais de 50px)
+
+======================= 
+
+22/02
+
+1. padding vertical do .header
+2. espaçamento entre o input e os ícones
+
+desafio: 
+
+1. começar o HTML do header-bottom (não precisa do css)
