@@ -28,3 +28,16 @@ desafio:
 desafio: 
 
 1. começar o HTML do header-bottom (não precisa do css)
+
+======================== 
+
+25/02
+
+1. logo está verticalmente desalinhado 
+2. corrigir tamanho dos ícones da rede social (inspect no site de referência e pagar os tamanhos certos)
+3. começar o HTML da <section class="hero">
+
+Dicas: 
+
+- raramente (quase nunca), se usa 'background-image' no CSS.
+- a imagem do hero vai usar um <img> 
