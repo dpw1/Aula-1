@@ -61,3 +61,13 @@ transform: translateX(-50%);
 ---
 
 EMMET
+
+---
+
+Position absolute só encontra o pai relative, se ele tiver um desses: 
+
+top, right, bottom ou left. 
+
+---
+
+height:100% só funciona se o pai tiver um height definido em pixels

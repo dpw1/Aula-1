@@ -1,23 +1,37 @@
-/* Universal styles 
+/* Universal styles [START]
 ============================== */
 :root {
   --primary-color: #3f72e5;
   --text-color: #303c43;
   --text-color-dark: #252f35;
   --text-color-very-dark: #1a1c1d;
+  --text-color-very-light: #ffffff;
+
   --border-color-light: #dadce0;
   --background-color: #f5f5f5;
   --background-input: #e7e8e9;
 
   --basic-transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
+  --border-radius-medium: 16px;
+  --border-radius-large: 500px;
 }
+
 body {
   background-color: var(--background-color);
 }
+
 .icon-small {
   width: 14px;
   height: 14px;
   display: inline-block;
+}
+
+.h1 {
+  font-size: 50px;
+}
+
+.h2 {
+  font-size: 34px;
 }
 
 .h3 {
@@ -27,12 +41,25 @@ body {
 .h4 {
   font-size: 13px;
 }
+
 .h5 {
   font-size: 12px;
 }
 
+.h6 {
+  font-size: 10px;
+}
+
 /* media query para mobile */
 @media (max-width: 749px) {
+  .h1 {
+    font-size: 32px;
+  }
+
+  .h2 {
+    font-size: 30px;
+  }
+
   .h3 {
     font-size: 14px;
   }
@@ -42,6 +69,10 @@ body {
   }
   .h5 {
     font-size: 12px;
+  }
+
+  .h6 {
+    font-size: 10px;
   }
 }
 
@@ -53,10 +84,14 @@ body {
   padding-right: 15px;
   /* background: lightblue; */
 }
+
 * {
   font-family: "Roboto", serif;
 }
-/* Announcement styles
+/* Universal styles [END]
+============================== */
+
+/* Announcement section [START]
 ============================== */
 .announcement {
   background-color: var(--primary-color);
@@ -85,7 +120,11 @@ body {
   color: #fff;
   fill: #fff;
 }
-/* About styles
+
+/* Announcement section [END]
+============================== */
+
+/* About section [START]
 ============================== */
 .about-social-item {
 }
@@ -124,8 +163,12 @@ body {
   fill: var(--text-color);
   color: var(--text-color);
 }
-/* .......................  */
 
+/* About section [END]
+============================== */
+
+/* Header section [START]
+============================== */
 .header-container-input {
   background: var(--background-input);
   border-radius: 5px;
@@ -257,4 +300,65 @@ body {
   color: var(--text-color);
 }
 
-/* ========== */
+/* Header section [END]
+============================== */
+
+/* Hero section [START]
+============================== */
+
+.hero-slide {
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  padding-left: 50px;
+  max-width: 60%;
+  width: 100%;
+}
+
+.hero-title {
+  font-weight: 700;
+}
+
+.hero * {
+  color: var(--text-color-very-light);
+}
+
+.hero-controller {
+  width: 130px;
+  display: flex;
+  height: 42px;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: var(--text-color-very-light);
+  border-radius: var(--border-radius-large);
+  justify-content: center;
+}
+
+.hero-controller * {
+  color: var(--text-color-dark);
+}
+
+.hero-arrow {
+  width: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-img {
+  height: 500px;
+}
+
+.hero-bg-img {
+  height: 100%;
+}
+
+/* Hero section [END]
+============================== */
