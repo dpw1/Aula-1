@@ -71,3 +71,9 @@ top, right, bottom ou left.
 ---
 
 height:100% só funciona se o pai tiver um height definido em pixels
+
+--- 
+
+Geralmente botões não tem um width. Eles usam padding-left e padding-right 
+pq?
+pq não sabemos o texto

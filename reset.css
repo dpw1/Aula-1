@@ -121,6 +121,12 @@ meter {
 }
 
 svg {
-  fill: black;
-  color: black;
+  /* fill: black;
+  color: black; */
+}
+
+p {
+  line-height: 1.6;
+  word-spacing: 0.001em;
+  font-size: 15px;
 }
