@@ -77,3 +77,9 @@ height:100% só funciona se o pai tiver um height definido em pixels
 Geralmente botões não tem um width. Eles usam padding-left e padding-right 
 pq?
 pq não sabemos o texto
+
+---
+
+width => largura do elemento
+min-width => largura mínima do elemento
+max-width => largura máxima do elemento
