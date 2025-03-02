@@ -5,12 +5,15 @@
   --text-color: #303c43;
   --text-color-dark: #252f35;
   --text-color-very-dark: #1a1c1d;
+  --text-color-medium-light: #6b7479;
   --text-color-very-light: #ffffff;
   --border-color-light: #dadce0;
   --background-color: #f5f5f5;
+  --background-color-light: #ebecec;
   --background-input: #e7e8e9;
   --basic-transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
   --border-radius-medium: 16px;
+  --star-color: #ffaa47;
 }
 
 body {
@@ -550,4 +553,120 @@ body {
   margin-left: 15px;
 }
 /* Promotion section [END]
+============================== */
+
+/* Bestseller section [START]
+============================== */
+
+.bestseller-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bestseller-button-1 {
+  background-color: var(--primary-color);
+  border-radius: 30px;
+  padding: 10px 15px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.bestseller-button-2 {
+  background-color: var(--background-color-light);
+  border-radius: 30px;
+  padding: 10px 15px;
+  color: var(--text-color-medium-light);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.bestseller-button-2:hover {
+  background-color: var(--primary-color);
+  border-radius: 30px;
+  padding: 10px 15px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--basic-transition);
+}
+
+.bestseller-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--text-color-dark);
+}
+
+.bestseller-subtitle {
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+.bestseller-star {
+  height: 14px;
+  width: 14px;
+  fill: var(--star-color);
+}
+
+.bestseller-slides {
+  display: flex;
+}
+
+.bestseller-bottom {
+  margin-top: 30px;
+}
+
+.bestseller-img {
+  max-width: 150;
+  width: 100%;
+  border-radius: var(--border-radius-medium);
+  cursor: pointer;
+}
+
+.bestseller-slide-title {
+  margin-bottom: 10px;
+  font-weight: 500;
+  width: 150px;
+}
+
+.bestseller-slide-title:hover {
+  color: var(--primary-color);
+  transition: var(--basic-transition);
+}
+
+.bestseller-slides-price {
+  color: var(--text-color);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bestseller-slides-available {
+  color: var(--text-color-medium-light);
+  margin-bottom: 5px;
+}
+
+.bestseller-slide-element {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: var(--text-color-medium-light);
+}
+
+.bestseller-slides-tag {
+  padding: 4px 6px;
+  color: var(--text-color-medium-light);
+  border: var(--text-color);
+}
+
+.besteller-review {
+  display: flex;
+}
+
+.bestseller-slides-rate {
+  color: var(--text-color);
+}
+
+.bestseller-items + * {
+  margin-left: 20px;
+}
+/* Bestseller section [END]
 ============================== */
