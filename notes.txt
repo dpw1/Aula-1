@@ -83,3 +83,13 @@ pq não sabemos o texto
 width => largura do elemento
 min-width => largura mínima do elemento
 max-width => largura máxima do elemento
+
+---
+
+media queries 
+
+@media (max-width: 749px){} => quando a tela for menor que esse número, leia o CSS dentro 
+
+@media (min-width: 750px){} => quando a tela for maior que esse número, leia o CSS dentro 
+
+@media (max-width: 749px) and (min-width: 800px){} => quando a tela estiver entre os dois valores

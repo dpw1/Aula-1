@@ -14,6 +14,13 @@
   --basic-transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
   --border-radius-medium: 16px;
   --star-color: #ffaa47;
+
+  /* ==========
+
+  --media-query-mobile: 749px;
+  --media-query-mobile-xs: 480px;
+
+  ========== */
 }
 
 body {
@@ -100,7 +107,7 @@ body {
   }
 
   .h6 {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
@@ -219,6 +226,12 @@ body {
   border-radius: 10px;
   margin-left: 15px;
   margin-right: 15px;
+}
+
+@media (max-width: 749px) {
+  .about {
+    display: none;
+  }
 }
 
 /* About section [END]
@@ -355,6 +368,41 @@ body {
 
 .header-bottom-right .header-bottom-item:hover {
   color: var(--text-color);
+}
+
+/* xxx */
+
+@media (max-width: 749px) {
+  .header-desktop {
+    display: none;
+  }
+
+  .header-mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-mobile-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-icon--burger {
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+  }
+}
+
+@media (min-width: 750px) {
+  .header-desktop {
+    display: flex;
+  }
+
+  .header-mobile {
+    display: none;
+  }
 }
 
 /* Header section [END]
@@ -742,6 +790,7 @@ body {
   height: 100%;
   border-radius: var(--border-radius-medium);
   overflow: hidden;
+  padding: 35px;
 }
 
 .infoblock-right,
@@ -784,10 +833,10 @@ body {
 .infoblock-block-pretitle {
   text-align: center;
   display: block;
-  padding-top: 40px;
 
   font-weight: 600;
   color: var(--text-color-medium-light);
+  margin-bottom: 20px;
 }
 
 .infoblock-block-pretitle--side {
@@ -849,7 +898,6 @@ body {
 
 .infoblock-block-pretitle--side {
   font-weight: 600;
-  margin: 40px;
 }
 
 .infoblock-title-space {
@@ -862,7 +910,7 @@ body {
 .infoblock-block-title--small {
   width: 300px;
   font-weight: 600;
-  margin-left: 40px;
+
   width: 250px;
   color: var(--background-color);
 }
@@ -871,10 +919,32 @@ body {
   width: 500px;
   font-weight: 600;
   margin-top: 25px;
-  margin-left: 40px;
+
   width: 250px;
   color: var(--text-color);
 }
 
+.infoblock-block--bottom-first {
+  background: linear-gradient(
+    180deg,
+    rgba(247, 177, 168, 1),
+    rgba(63, 114, 229, 1) 99%
+  );
+  justify-content: center;
+}
+
+.infoblock-block--bottom-first .infoblock-block-title--small {
+  margin-left: 0;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.infoblock-left .infoblock-block {
+  align-items: flex-start;
+}
+
+.infoblock-block--rectangle {
+  align-items: flex-start;
+}
 /* Infoblock section  [END]
 ============================== */

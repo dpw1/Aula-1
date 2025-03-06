@@ -41,3 +41,13 @@ Dicas:
 
 - raramente (quase nunca), se usa 'background-image' no CSS.
 - a imagem do hero vai usar um <img> 
+
+---
+
+06/03
+
+1. Usar a propriedade: 
+
+overflow-x: scroll;
+
+para o scroll no mobile
