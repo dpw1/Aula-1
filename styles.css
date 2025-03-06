@@ -42,6 +42,10 @@ body {
   font-size: 34px;
 }
 
+.h2-small {
+  font-size: 28px;
+}
+
 .h3 {
   font-size: 20px;
 }
@@ -127,7 +131,7 @@ body {
   background-repeat: no-repeat;
 
   position: absolute;
-  bottom: -16px;
+  bottom: -55px;
   left: 0;
   right: 0;
 }
@@ -767,17 +771,28 @@ body {
 
 .infoblock-block {
   background: var(--text-color-very-light);
+  align-items: center;
+  display: flex;
 }
 
 .infoblock-block-title {
   font-weight: 600;
   text-align: center;
+  color: var(--text-color);
 }
 
 .infoblock-block-pretitle {
   text-align: center;
   display: block;
   padding-top: 40px;
+
+  font-weight: 600;
+  color: var(--text-color-medium-light);
+}
+
+.infoblock-block-pretitle--side {
+  color: var(--text-color-medium-light);
+  margin-bottom: 40px;
 }
 
 .infoblock-block-text {
@@ -809,6 +824,53 @@ body {
 
 .infoblock-right {
   margin-left: 20px;
+}
+
+.infoblock-block-text {
+  align-items: center;
+}
+
+.infoblock-title {
+  font-weight: 600;
+  justify-content: center;
+  display: flex;
+  align-items: 0;
+  color: var(--text-color-dark);
+}
+
+.infoblock-subtitle {
+  justify-content: center;
+  display: flex;
+  font-weight: 600;
+  margin: 10px;
+  color: var(--text-color-dark);
+  margin-bottom: 40px;
+}
+
+.infoblock-block-pretitle--side {
+  font-weight: 600;
+  margin: 40px;
+}
+
+.infoblock-title-space {
+  margin-left: 10px;
+}
+
+.infoblock-block-title--small {
+  width: 300px;
+  font-weight: 600;
+  margin-left: 40px;
+  width: 250px;
+  color: var(--background-color);
+}
+
+.infoblock-block-title--medium {
+  width: 500px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-left: 40px;
+  width: 250px;
+  color: var(--text-color);
 }
 
 /* Infoblock section  [END]
