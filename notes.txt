@@ -93,3 +93,8 @@ media queries
 @media (min-width: 750px){} => quando a tela for maior que esse número, leia o CSS dentro 
 
 @media (max-width: 749px) and (min-width: 800px){} => quando a tela estiver entre os dois valores
+
+
+---
+
+QUando se usa display flex, todos os filhos vão ficar um do lado do outro.

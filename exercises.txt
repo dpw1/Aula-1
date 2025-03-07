@@ -51,3 +51,12 @@ Dicas:
 overflow-x: scroll;
 
 para o scroll no mobile
+
+---
+
+1. last-child 
+
+.pai .child:last-child 
+
+
+2. 
