@@ -98,3 +98,27 @@ media queries
 ---
 
 QUando se usa display flex, todos os filhos vão ficar um do lado do outro.
+
+---
+
+imagens:
+
+- para imagens responsivas, usar o: 
+max-width: 100%; 
+width: 100%;
+ height: auto;
+
+- se a imagem precisar de um width específico, coloque no max-width 
+
+.img{
+    max-width: 300px;
+    width: 100%;
+}
+
+- caso precise de aspect ratio, igual as imagens do youtube, thumbnails, use o aspect-ratio com width e max-width 
+
+.img{
+    aspect-ratio: 3/4;
+    max-width: 100%;
+    width: 100%;
+}
