@@ -809,6 +809,18 @@ body {
 .promotion-block + * {
   margin-left: 15px;
 }
+
+/*promotion block mobile media*/
+
+@media (max-width: 749px) {
+  .promotion-blocks {
+    overflow-x: scroll;
+  }
+
+  .promotion-block {
+    min-width: 300px;
+  }
+}
 /* Promotion section [END]
 ============================== */
 
